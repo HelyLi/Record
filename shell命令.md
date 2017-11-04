@@ -10,6 +10,9 @@ unrar x xxx.rar
 
 cocos 编译.so文件
 ```
+cocos compile -p android --android-studio --no-apk -m release
+cocos compile -p android -m release --android-studio --no-apk --ap android-19
+
 cocos compile -p android -m release --no-apk --android-studio
 ```
 
