@@ -12,6 +12,6 @@ adb logcat | grep --color=auto $pid
 
 设置匹配字符串颜色
 ```
-adb logcat | grep --color=auto -i tag
+adb logcat | grep --color=auto -i lua
 ```
 

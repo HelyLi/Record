@@ -52,3 +52,9 @@ ls -l |grep "^ｄ"|wc -l
 ```
 ls -F /opt/soft |grep /$
 ```
+
+---
+macOS adb 截屏
+```
+adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > ./screenshot_$(date +%Y_%m_%d_%H_%M_%S).png
+```
