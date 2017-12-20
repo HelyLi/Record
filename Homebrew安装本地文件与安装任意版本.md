@@ -1,5 +1,3 @@
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask/Casks
-
 下载homebrew-cask
 
 ```git
@@ -48,7 +46,7 @@ caskroom/cask/atom                                                              
 ==> Downloading https://github.com/atom/atom/releases/download/v1.23.1/atom-mac.zip
 ```
 
-进入Homebrew 本地缓存文件
+进入Homebrew 本地缓存目录
 
 ```shell
 brew --cache
