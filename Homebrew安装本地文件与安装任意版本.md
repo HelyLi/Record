@@ -62,9 +62,10 @@ cd /Users/xxx/Caches/Homebrew
 atom--1.23.1.zip.incomplete
 ```
 
-将用某雷下载的atom修改为 `atom--1.23.1.zip`
+将用某雷下载的atom修改为 `atom--1.23.1.zip` 然后拷贝到 `/Users/xxx/Caches/Homebrew/Cask` 并删除 `atom--1.23.1.zip.incomplete`
 
-然后
+运行
+
 ```shell
 brew cask install atom
 ```
