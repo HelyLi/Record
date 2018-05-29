@@ -58,3 +58,21 @@ macOS adb 截屏
 ```
 adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > ./screenshot_$(date +%Y_%m_%d_%H_%M_%S).png
 ```
+
+---
+递归删除.git目录
+```
+find . -name ".git" -type d -exec rm -rf {} \;
+```
+
+---
+递归删除后缀为.iml文件
+```
+find . -name "*.DS_Store" -type f -exec rm -rf {} \;
+```
+
+```
+idevice_id list 查看连接的设备udid
+ideviceinstaller -i xxx.ipa 安装到设备
+ideviceinstaller -u appid 卸载app
+```

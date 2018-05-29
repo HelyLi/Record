@@ -15,3 +15,12 @@ adb logcat | grep --color=auto $pid
 adb logcat | grep --color=auto -i lua
 ```
 
+在emulator-5554模拟器上安装ebook.apk：  
+```shell
+adb -s emulator-5554 install ebook.apk   
+```
+
+在真机上安装ebook.apk：  
+```shell
+adb -s HT9BYL904399 install ebook.apk  
+```

@@ -16,6 +16,8 @@ sudo perl -pi -e 's|\xB3\x01\x84\xC0\x75\x10\x31\xDB\x48\x8D\x3D|\xB3\x01\x84\xC
 
 下载Android&iOS Build Support 官方组件
 
+[Android Build Support][unity_Android_5.6.4f1]
+
 Unity->File->Build Settrings
 Android->Open Download Page
 iOs->Open Download Page
@@ -29,3 +31,4 @@ Unity->Preferences...->ExternalTools
 
 [unity5.6.4f1]: https://unity3d.com/cn/get-unity/download/archive?_ga=2.95582939.615303454.1513688104-735383829.1502779263
 [crack5.6.4f1]: http://www.ceeger.com/forum/read.php?tid=23396&page=1
+[unity_Android_5.6.4f1]: http://download.unity3d.com/download_unity/ac7086b8d112/MacEditorTargetInstaller/UnitySetup-Android-Support-for-Editor-5.6.4f1.pkg
