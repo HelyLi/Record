@@ -1,0 +1,31 @@
+--langdef=Go
+--langmap=Go:.go
+--regex-Go=/func([ \t]+\([^)]+\))?[ \t]+([a-zA-Z0-9_]+)/\2/d,func/
+--regex-Go=/var[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/d,var/
+--regex-Go=/type[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/d,type/
+
+--langdef=MYLUA
+--langmap=MYLUA:.lua
+--regex-MYLUA=/newClass\(\'([^ ]+)\',.*/\1/c/
+--regex-MYLUA=/.*subclass\([\'\"]([^ ]+)[\'\"]\)/\1/c/
+--regex-MYLUA=/[ ]?([a-zA-Z_]+)Layout[ ]?=.*/\1/c/
+--regex-MYLUA=/[ ]?([a-zA-Z_]+Layout)[ ]?=.*/\1/c/
+--regex-MYLUA=/^([^:.= ]+)[ =]+\{\}/\1/c/
+--regex-MYLUA=/^function[ ]+[^:]+:([^ \(]+)/\1/f/
+--regex-MYLUA=/^function[ ]+([^:. ]+)\(/\1/f/
+--regex-MYLUA=/^function[ ]+[^:]+\.([a-zA-Z_]+)\(/\1/f/
+--regex-MYLUA=/^function[ ]+[^:.]+\.class:([a-zA-Z_]+)\(/\1/f/
+--regex-MYLUA=/[ ]?local[ ]+function[ ]+([^:.= ]+)\(/\1/f/
+--regex-MYLUA=/[ ]?local[ ]+([a-zA-Z_]+)[ ]?=[ ]?function\(/\1/f/
+--regex-MYLUA=/([^ ]+)[ ]+=[a-zA-z_ ]+or[ ]+{}/\1/m/
+--regex-MYLUA=/.*:mapEvent\(([^,:]+)[, ]+[^ ,:_]+\).*/\1/e/
+--regex-MYLUA=/([ ]?[a-zA-Z_-]+)[ ]?=[ ]?InitStaticInt.*/\1/e/
+
+--regex-MYLUA=/^.*\s*function[ \t]*([a-zA-Z0-9_]+):([a-zA-Z0-9_]+).*$/\2/f,function/
+--regex-MYLUA=/^.*\s*function[ \t]*([a-zA-Z0-9_]+)\.([a-zA-Z0-9_]+).*$/\2/f,function/
+--regex-MYLUA=/^.*\s*function[ \t]*([a-zA-Z0-9_]+)\s*\(.*$/\1/f,function/
+--regex-MYLUA=/([a-zA-Z0-9_]+) = require[ (]"([^"]+)"/\1/r,require/
+--regex-MYLUA=/[ \t]{1}([a-zA-Z0-9_]+)[ \t]*[=][^=]/\1/v,variable/
+--regex-MYLUA=/[ \t]*([a-zA-Z0-9_]+)[ \t]*=[ \t]*module_define.*$/\1/m,module/
+--regex-MYLUA=/func_table\[ msg\.([A-Z_]+) \].+/\1/
+--regex-MYLUA=/\([ \t]*msg.([A-Z_]+)[ \t]*\)/\1/
