@@ -1,0 +1,34 @@
+Host qzmj
+    HostName sshs1.gqp01.com
+    Port 2050
+    User lixiong
+
+Host qzmjt
+    HostName 120.78.79.192
+    Port 2050
+    User lixiong
+
+Host zzmjt
+    HostName 120.78.79.192
+    Port 2050
+    User lixiong
+
+Host ndmj
+    HostName ndapp.wwg01.com
+    Port 2050
+    User lixiong
+
+Host npmj
+    HostName ndapp.wwg01.com
+    Port 2050
+    User lixiong
+
+Host fzmj
+    HostName 106.75.84.101
+    Port 2050
+    User lixiong
+
+Host ptmj
+    HostName ptapp.wwg01.com
+    Port 2050
+    User liuwj
