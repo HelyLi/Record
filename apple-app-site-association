@@ -5,6 +5,10 @@
             {
                 "appID": "2526ESU4R7.www.wan.bbmj.com",
                 "paths": ["/"]
+            },
+            {
+                "appID": "DLHGWX3J3R.www.npmj.wan.com",
+                "paths": ["/"]
             }
         ]
     }
