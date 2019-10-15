@@ -76,3 +76,9 @@ idevice_id list 查看连接的设备udid
 ideviceinstaller -i xxx.ipa 安装到设备
 ideviceinstaller -u appid 卸载app
 ```
+
+```
+vim xxx.bin
+:%!xxd
+:%!xxd -r
+```

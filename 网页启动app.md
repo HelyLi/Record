@@ -37,8 +37,12 @@
 
 获取
 ```
-curl -v https://wwg16.com/.well-known/apple-app-site-association
+curl -v https://wwg01.com/.well-known/apple-app-site-association
 ```
+莆仙 wwmj06.com
+南平 wwg16.com
+漳州 wwmj16.com
+curl -v https://wwg01.com/.well-known/apple-app-site-association
 
 ```json
 ios:"wwbbmj://",ulink:"https://wwg16.com/",android:"mj://wwbbmj.com/"
