@@ -3,39 +3,51 @@
         "apps": [],
         "details": [
             {
-                "appID": "3YE4DPLMQ5.www.wan.longyan.com",
+                "appID": "A4PC73JBVB.com.hh.majiang.aa.bkm",
                 "paths": ["/"]
             },
             {
-                "appID": "RG7869X7B6.www.wan.longyan.com",
+                "appID": "58686MVP7S.www.wan.aamj.com",
                 "paths": ["/"]
             },
             {
-                "appID": "DLHGWX3J3R.com.hsq.mj.ly",
+                "appID": "C2929NM32V.com.hh.majiang.aa.acd",
                 "paths": ["/"]
             },
             {
-                "appID": "A4PC73JBVB.com.hsq.mj.ly.bkm",
+                "appID": "FWNPDT82AS.com.www.hsk.llk.qz",
                 "paths": ["/"]
             },
             {
-                "appID": "C2929NM32V.com.hsq.mj.ly.acd",
+                "appID": "FWNPDT82AS.com.www.hsk.ddp.qz",
                 "paths": ["/"]
             },
             {
-                "appID": "58686MVP7S.com.hsq.mj.ly.hsq",
+                "appID": "58686MVP7S.com.hh.majiang.aa.hsq",
                 "paths": ["/"]
             },
             {
-                "appID": "462W7H9GPG.com.hsq.mj.ly.hsq",
+                "appID": "9THLS2646H.www.wan.jww.mnmj.com",
                 "paths": ["/"]
             },
             {
-                "appID": "462W7H9GPG.www.Alipaypojie",
+                "appID": "CKSXV886NV.com.fjmj.wan.www",
                 "paths": ["/"]
             },
             {
-                "appID": "3R9TK8QW58.com.ly.mj.www",
+                "appID": "MZAZSLDA22.www.wan.xxyx.com.hk",
+                "paths": ["/"]
+            },
+            {
+                "appID": "68ML24N287.com.mn.mj.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "FWNPDT82AS.com.ww.mj.mn.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "2526ESU4R7.com.ww.mj.mn.tf.www",
                 "paths": ["/"]
             },
             {
@@ -43,11 +55,11 @@
                 "paths": ["/"]
             },
             {
-                "appID": "D55WW7LZWC.com.ww.mj.fjmj.www",
+                "appID": "5AC9VWT773.com.ww.fj.yx.www",
                 "paths": ["/"]
             },
             {
-                "appID": "72H7MC3JYG.com.ly.yx.ww.www",
+                "appID": "PG4HH4267Q.com.play.yx.fj.www",
                 "paths": ["/"]
             }
         ]
