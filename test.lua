@@ -36,3 +36,8 @@ print(string.find(str, "%l%lmj"))
 local sstr = string.gsub(str, '%l%lmj', "pxmj")
 
 print(sstr)
+
+local strttt = "com.ccca.mnyx"
+local find = string.find(strttt, "%l%lyx")
+print(find)
+print(string.sub(strttt, 1, find - 1))
