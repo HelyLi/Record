@@ -41,3 +41,9 @@ local strttt = "com.ccca.mnyx"
 local find = string.find(strttt, "%l%lyx")
 print(find)
 print(string.sub(strttt, 1, find - 1))
+
+local st = "xxxx/"
+if string.byte(st, #st) == 47 then
+  st = string.sub(st, 1, #st - 1)
+end
+print(st)

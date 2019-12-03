@@ -3,51 +3,19 @@
         "apps": [],
         "details": [
             {
-                "appID": "3YE4DPLMQ5.www.wan.longyan.com",
+                "appID": "A4PC73JBVB.www.zqmj.wan.com.bkm",
                 "paths": ["/"]
             },
             {
-                "appID": "RG7869X7B6.www.wan.longyan.com",
+                "appID": "C2929NM32V.www.zqmj.wan.com.acd",
                 "paths": ["/"]
             },
             {
-                "appID": "DLHGWX3J3R.com.hsq.mj.ly",
+                "appID": "FWNPDT82AS.com.ww.zq.mj.www",
                 "paths": ["/"]
             },
             {
-                "appID": "A4PC73JBVB.com.hsq.mj.ly.bkm",
-                "paths": ["/"]
-            },
-            {
-                "appID": "C2929NM32V.com.hsq.mj.ly.acd",
-                "paths": ["/"]
-            },
-            {
-                "appID": "58686MVP7S.com.hsq.mj.ly.hsq",
-                "paths": ["/"]
-            },
-            {
-                "appID": "462W7H9GPG.com.hsq.mj.ly.hsq",
-                "paths": ["/"]
-            },
-            {
-                "appID": "462W7H9GPG.www.Alipaypojie",
-                "paths": ["/"]
-            },
-            {
-                "appID": "3R9TK8QW58.com.ly.mj.www",
-                "paths": ["/"]
-            },
-            {
-                "appID": "3R9TK8QW58.com.ww.fjmj.www",
-                "paths": ["/"]
-            },
-            {
-                "appID": "D55WW7LZWC.com.ww.mj.fjmj.www",
-                "paths": ["/"]
-            },
-            {
-                "appID": "72H7MC3JYG.com.ly.yx.ww.www",
+                "appID": "D55WW7LZWC.com.ww.mj.zqyx.www",
                 "paths": ["/"]
             }
         ]

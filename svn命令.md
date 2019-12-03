@@ -50,5 +50,5 @@ svn commit -m "Revert revision from r28 to r25,because of ..."
 
 空文件夹
 ```shell
-svn co --depth=empty  https://39.108.152.6/svn/lymj/trunk/client/hot-update-res
+svn co --depth=empty https://39.108.152.6/svn/qzmj/trunk/lua-client/subGame_appstore/dhbf
 ```

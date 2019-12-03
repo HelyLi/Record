@@ -12,7 +12,7 @@ adb logcat | grep --color=auto $pid
 
 设置匹配字符串颜色
 ```
-adb logcat | grep --color=auto -i lua
+adb logcat | grep --color=auto -i trace
 ```
 
 在emulator-5554模拟器上安装ebook.apk：  
