@@ -116,16 +116,21 @@ function pai:RemoveOrder()
             local _nn = self.index[nn]
             print(v[1], n, nn, v[2], _n and _n[2], _nn and _nn[2])
             
-            if lzNum > 0 then--需要一个癞子的顺子
+            if _n and _nn and _n[2] > 0 and _nn[2] > 0 then--不需癞子的顺子
+                v[2] = v[2] - 1
+                _n[2] = _n[2] - 1
+                _nn[2] = _nn[2] - 1
+                return true
+            elseif lzNum > 0 then--需要一个癞子的顺子
                 -- print(_n[2], _nn[2])
-                if ((not _n) or _n[2] == 0) and _nn and _nn[2] > 0 then--中间
+                if _nn and _nn[2] > 0 then--中间
                     v[2] = v[2] - 1
                     self.pai[#self.pai][2] = self.pai[#self.pai][2] - 1
                     -- lzNum = self.pai[#self.pai][2]
                     _nn[2] = _nn[2] - 1
                     print(v[1], CARD_LZ, _nn[1])
                     return true
-                elseif _n and _n[2] > 0 and ( (not _nn) or (_nn[2] == 0) ) then--两边
+                elseif _n and _n[2] > 0 then--两边
                     v[2] = v[2] - 1
                     _n[2] = _n[2] - 1
                     self.pai[#self.pai][2] = self.pai[#self.pai][2] - 1
@@ -134,11 +139,6 @@ function pai:RemoveOrder()
                     print(v[1], _n[2], CARD_LZ)
                     return true
                 end
-            elseif _n and _nn and _n[2] > 0 and _nn[2] > 0 then--不需癞子的顺子
-                v[2] = v[2] - 1
-                _n[2] = _n[2] - 1
-                _nn[2] = _nn[2] - 1
-                return true
             end
         end
     end
@@ -204,10 +204,16 @@ function M.CheckHu(pai)
     return false
 end
 
-print(M.CheckHu({2,5,
+-- 11,11
+-- 12,13,14
+-- 13,14,15,
+-- 15,2,17
+-- 2,2,2
+
+print(M.CheckHu({2,2,
 11,12,13,
-14,14,14,
-15,15,15,
+14,2,14,
+15,17,15,
 11,2,13}))
 -- print(M.CheckHu({1,2,3,4,5,6,1,2,3,4,5,6,7,7}))
 -- print(M.CheckHu({1,1,1,1,2,2,2,2,3,3,3,3,4,4}))
