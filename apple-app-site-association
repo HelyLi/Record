@@ -3,20 +3,88 @@
         "apps": [],
         "details": [
             {
-                "appID": "A4PC73JBVB.www.zqmj.wan.com.bkm",
+                "appID": "A4PC73JBVB.com.hh.majiang.aa.bkm",
                 "paths": ["/"]
             },
             {
-                "appID": "C2929NM32V.www.zqmj.wan.com.acd",
+                "appID": "58686MVP7S.www.wan.aamj.com",
                 "paths": ["/"]
             },
             {
-                "appID": "FWNPDT82AS.com.ww.zq.mj.www",
+                "appID": "C2929NM32V.com.hh.majiang.aa.acd",
                 "paths": ["/"]
             },
             {
-                "appID": "D55WW7LZWC.com.ww.mj.zqyx.www",
+                "appID": "FWNPDT82AS.com.www.hsk.llk.qz",
                 "paths": ["/"]
+            },
+            {
+                "appID": "FWNPDT82AS.com.www.hsk.ddp.qz",
+                "paths": ["/"]
+            },
+            {
+                "appID": "58686MVP7S.com.hh.majiang.aa.hsq",
+                "paths": ["/"]
+            },
+            {
+                "appID": "9THLS2646H.www.wan.jww.mnmj.com",
+                "paths": ["/"]
+            },
+            {
+                "appID": "CKSXV886NV.com.fjmj.wan.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "MZAZSLDA22.www.wan.xxyx.com.hk",
+                "paths": ["/"]
+            },
+            {
+                "appID": "68ML24N287.com.mn.mj.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "FWNPDT82AS.com.ww.mj.mn.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "2526ESU4R7.com.ww.mj.mn.tf.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "3R9TK8QW58.com.ww.fjmj.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "5AC9VWT773.com.ww.fj.yx.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "PG4HH4267Q.com.play.yx.fj.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "FWNPDT82AS.com.fj.play.yx.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "D55WW7LZWC.com.ww.mj.fjmj.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "4G44VQ2JRL.com.yx.fz.jx.www",
+                "paths": ["/*", "*"]
+            },
+            {
+                "appID": "D55WW7LZWC.com.yl.yx.xx.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "R59BGKQ25J.com.ml.yx.yl.www",
+                "paths": ["/"]
+            },
+            {
+                "appID": "R459NBFZ22.www.my.hl.yx.com",
+                "paths": ["*"]
             }
         ]
     }

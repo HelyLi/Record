@@ -1,0 +1,282 @@
+{
+  index = {
+    [5] = <1>{ 5, 1 },
+    [11] = <2>{ 11, 2 },
+    [12] = <3>{ 12, 1 },
+    [13] = <4>{ 13, 2 },
+    [14] = <5>{ 14, 3 },
+    [256] = <6>{ 256, 2 }
+  },
+  pai = { <table 1>, <table 2>, <table 3>, <table 4>, <table 5>, { 15, 3 }, <table 6> }
+}
+CheckScheme.lzNum:      2
+CheckScheme.lzNum:      2
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd85138c0   table: 0x7f9cd8513a00
+13      14      15      2       table: 0x7f9cd8513a00   table: 0x7f9cd8513940
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd8518f70   table: 0x7f9cd85190b0
+13      14      15      2       table: 0x7f9cd85190b0   table: 0x7f9cd8518ff0
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 2 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+13      14      15      2       table: 0x7f9cd851e730   table: 0x7f9cd851e670
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 0 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd8523c70   table: 0x7f9cd8523c30
+12      13      14      1       table: 0x7f9cd8523c30   table: 0x7f9cd8523d70
+CheckScheme.lzNum:      2
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd852a1f0   table: 0x7f9cd852a330
+13      14      15      2       table: 0x7f9cd852a330   table: 0x7f9cd852a270
+15      16      17      3       nil     nil
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd8604320   table: 0x7f9cd8604460
+13      14      15      2       table: 0x7f9cd8604460   table: 0x7f9cd86043a0
+15      16      17      3       nil     nil
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 2 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+13      14      15      2       table: 0x7f9cd8609ae0   table: 0x7f9cd8609a20
+15      16      17      3       nil     nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 0 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd860f040   table: 0x7f9cd860f000
+12      13      14      1       table: 0x7f9cd860f000   table: 0x7f9cd860f140
+15      16      17      3       nil     nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 1 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd86146c0   table: 0x7f9cd8614680
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 1 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd86146c0   table: 0x7f9cd8614680
+13      14      15      1       table: 0x7f9cd86147c0   table: 0x7f9cd8614700
+14      15      16      1       table: 0x7f9cd8614700   nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd861ede0   table: 0x7f9cd861eda0
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 0 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd861ede0   table: 0x7f9cd861eda0
+13      14      15      1       table: 0x7f9cd861eee0   table: 0x7f9cd861ee20
+15      16      17      1       nil     nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8620ec0   table: 0x7f9cd8620e80
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 0 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8620ec0   table: 0x7f9cd8620e80
+13      14      15      1       table: 0x7f9cd861eb50   table: 0x7f9cd861f2a0
+CheckScheme.lzNum:      2
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd8414e40   table: 0x7f9cd8414f80
+{ { 5, 0 }, { 11, 0 }, { 12, 0 }, { 13, 1 }, { 14, 2 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+13      14      15      1       table: 0x7f9cd8414f80   table: 0x7f9cd8414ec0
+{ { 5, 0 }, { 11, 0 }, { 12, 0 }, { 13, 0 }, { 14, 1 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+14      15      16      1       table: 0x7f9cd8414ec0   nil
+15      16      17      2       nil     nil
+{ { 5, 0 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+12      13      14      1       table: 0x7f9cd8424560   table: 0x7f9cd84246a0
+{ { 5, 0 }, { 11, 0 }, { 12, 0 }, { 13, 1 }, { 14, 2 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+13      14      15      1       table: 0x7f9cd84246a0   table: 0x7f9cd84245e0
+{ { 5, 0 }, { 11, 0 }, { 12, 0 }, { 13, 0 }, { 14, 1 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+14      15      16      1       table: 0x7f9cd84245e0   nil
+15      16      17      2       nil     nil
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+13      14      15      2       table: 0x7f9cd842b8e0   table: 0x7f9cd84212c0
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 1 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+13      14      15      1       table: 0x7f9cd842b8e0   table: 0x7f9cd84212c0
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 0 }, { 14, 1 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+14      15      16      1       table: 0x7f9cd84212c0   nil
+15      16      17      1       nil     nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 0 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd8411100   table: 0x7f9cd84110c0
+12      13      14      1       table: 0x7f9cd84110c0   table: 0x7f9cd8411200
+14      15      16      3       table: 0x7f9cd8411140   nil
+15      16      17      3       nil     nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 1 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd8416860   table: 0x7f9cd8416820
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 1 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd8416860   table: 0x7f9cd8416820
+13      14      15      1       table: 0x7f9cd8416960   table: 0x7f9cd84168a0
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 0 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd8416860   table: 0x7f9cd8416820
+15      16      17      2       nil     nil
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd861d100   table: 0x7f9cd861d0c0
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 3 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd861d100   table: 0x7f9cd861d0c0
+13      14      15      1       table: 0x7f9cd861d200   table: 0x7f9cd861d140
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 2 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd861d100   table: 0x7f9cd861d0c0
+14      15      16      2       table: 0x7f9cd861d140   nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8616b30   table: 0x7f9cd861cdc0
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 0 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8616b30   table: 0x7f9cd861cdc0
+13      14      15      1       table: 0x7f9cd8616c30   table: 0x7f9cd8616b70
+15      16      17      3       nil     nil
+CheckScheme.lzNum:      2
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+11      12      13      2       table: 0x7f9cd8621a30   table: 0x7f9cd86219f0
+12      13      14      1       table: 0x7f9cd86219f0   table: 0x7f9cd8621b30
+13      14      15      2       table: 0x7f9cd8621b30   table: 0x7f9cd8621a70
+14      15      16      3       table: 0x7f9cd8621a70   nil
+true
+{ { 5, 0 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      2       table: 0x7f9cd8621a30   table: 0x7f9cd86219f0
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd8621a30   table: 0x7f9cd86219f0
+13      14      15      1       table: 0x7f9cd8621b30   table: 0x7f9cd8621a70
+{ { 5, 0 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 1 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+11      12      13      1       table: 0x7f9cd8621a30   table: 0x7f9cd86219f0
+14      15      16      1       table: 0x7f9cd8621a70   nil
+15      16      17      1       nil     nil
+{ { 5, 1 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 2 } } pai:RemoveOrder
+RemoveOrder.lzNum:      2
+5       6       7       1       nil     nil
+12      13      14      1       table: 0x7f9cd8627330   table: 0x7f9cd8623680
+13      14      15      2       table: 0x7f9cd8623680   table: 0x7f9cd86273b0
+14      15      16      3       table: 0x7f9cd86273b0   nil
+true
+{ { 5, 1 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 2 }, { 15, 2 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+5       6       7       1       nil     nil
+12      13      14      1       table: 0x7f9cd8627330   table: 0x7f9cd8623680
+13      14      15      2       table: 0x7f9cd8623680   table: 0x7f9cd86273b0
+14      15      16      2       table: 0x7f9cd86273b0   nil
+true
+{ { 5, 1 }, { 11, 0 }, { 12, 1 }, { 13, 2 }, { 14, 1 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+12      13      14      1       table: 0x7f9cd8627330   table: 0x7f9cd8623680
+{ { 5, 1 }, { 11, 0 }, { 12, 0 }, { 13, 1 }, { 14, 0 }, { 15, 1 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+13      14      15      1       table: 0x7f9cd8623680   table: 0x7f9cd86273b0
+15      16      17      1       nil     nil
+{ { 5, 1 }, { 11, 2 }, { 12, 0 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8617340   table: 0x7f9cd8617300
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8617340   table: 0x7f9cd8617300
+13      14      15      1       table: 0x7f9cd8617440   table: 0x7f9cd8617380
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8617340   table: 0x7f9cd8617300
+14      15      16      2       table: 0x7f9cd8617380   nil
+15      16      17      2       nil     nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 0 }, { 14, 3 }, { 15, 3 }, { 256, 2 } } pai:RemoveOrder
+RemoveOrder.lzNum:      2
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8520ee0   table: 0x7f9cd8520ea0
+true
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 3 }, { 15, 3 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8520ee0   table: 0x7f9cd8520ea0
+14      15      16      3       table: 0x7f9cd8520f20   nil
+true
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8520ee0   table: 0x7f9cd8520ea0
+14      15      16      2       table: 0x7f9cd8520f20   nil
+15      16      17      2       nil     nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 1 }, { 15, 3 }, { 256, 2 } } pai:RemoveOrder
+RemoveOrder.lzNum:      2
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8525450   table: 0x7f9cd8525410
+12      13      14      1       table: 0x7f9cd8525410   table: 0x7f9cd8525550
+13      14      15      2       table: 0x7f9cd8525550   table: 0x7f9cd8525490
+14      15      16      1       table: 0x7f9cd8525490   nil
+true
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 0 }, { 15, 2 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8525450   table: 0x7f9cd8525410
+12      13      14      1       table: 0x7f9cd8525410   table: 0x7f9cd8525550
+true
+{ { 5, 1 }, { 11, 2 }, { 12, 0 }, { 13, 1 }, { 14, 0 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8525450   table: 0x7f9cd8525410
+13      14      15      1       table: 0x7f9cd8525550   table: 0x7f9cd8525490
+15      16      17      2       nil     nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 1 }, { 256, 2 } } pai:RemoveOrder
+RemoveOrder.lzNum:      2
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8511ee0   table: 0x7f9cd8511ea0
+12      13      14      1       table: 0x7f9cd8511ea0   table: 0x7f9cd8511fe0
+13      14      15      2       table: 0x7f9cd8511fe0   table: 0x7f9cd8511f20
+14      15      16      3       table: 0x7f9cd8511f20   nil
+true
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 2 }, { 15, 0 }, { 256, 1 } } pai:RemoveOrder
+RemoveOrder.lzNum:      1
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8511ee0   table: 0x7f9cd8511ea0
+12      13      14      1       table: 0x7f9cd8511ea0   table: 0x7f9cd8511fe0
+13      14      15      2       table: 0x7f9cd8511fe0   table: 0x7f9cd8511f20
+true
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 1 }, { 14, 1 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd8511ee0   table: 0x7f9cd8511ea0
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 1 }, { 15, 0 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd8511ee0   table: 0x7f9cd8511ea0
+14      15      16      1       table: 0x7f9cd8511f20   nil
+{ { 5, 1 }, { 11, 2 }, { 12, 1 }, { 13, 2 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      2       table: 0x7f9cd85311c0   table: 0x7f9cd8531180
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 1 }, { 14, 3 }, { 15, 3 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd85311c0   table: 0x7f9cd8531180
+13      14      15      1       table: 0x7f9cd85312c0   table: 0x7f9cd8531200
+{ { 5, 1 }, { 11, 1 }, { 12, 0 }, { 13, 0 }, { 14, 2 }, { 15, 2 }, { 256, 0 } } pai:RemoveOrder
+RemoveOrder.lzNum:      0
+5       6       7       1       nil     nil
+11      12      13      1       table: 0x7f9cd85311c0   table: 0x7f9cd8531180
+14      15      16      2       table: 0x7f9cd8531200   nil
+15      16      17      2       nil     nil
+false
