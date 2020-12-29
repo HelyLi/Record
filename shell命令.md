@@ -71,6 +71,8 @@ find . -name ".git" -type d -exec rm -rf {} \;
 find . -name "*.DS_Store" -type f -exec rm -rf {} \;
 ```
 
+find . -name "*.png" -type f -exec open {} \;
+
 ```
 idevice_id list 查看连接的设备udid
 ideviceinstaller -i xxx.ipa 安装到设备
@@ -82,3 +84,30 @@ vim xxx.bin
 :%!xxd
 :%!xxd -r
 ```
+
+ffmpeg 合并视频
+```
+./ffmpeg.exe -f concat -safe 0 -i ./fileToMerge.txt -c copy -y ./out.mp4
+```
+
+```
+ln -s 【目标目录】 【软链接地址】
+ln -s ../Cellar/python@3.7/3.7.9_1 /usr/local/opt/python 
+```
+
+GOMODULE常用命令
+```
+go mod init  # 初始化go.mod
+go mod tidy  # 更新依赖文件
+go mod download  # 下载依赖文件
+go mod vendor  # 将依赖转移至本地的vendor文件
+go mod edit  # 手动修改依赖文件
+go mod graph  # 打印依赖图
+go mod verify  # 校验依赖
+```
+
+mysql 数据目录
+```
+/usr/local/var/mysql
+```
+

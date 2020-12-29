@@ -37,7 +37,7 @@
 
 获取
 ```
-curl -v https://wwg16.com/.well-known/apple-app-site-association
+curl -v https://gqp01.com/.well-known/apple-app-site-association
 ```
 闽南 gqp01.com
 龙岩 wwg01.com

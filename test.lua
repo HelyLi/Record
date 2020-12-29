@@ -425,8 +425,25 @@
 
 -- print(s and s.a or "aaa")
 
-local t = {
-    2
-}
-local pt = table.concat(t, ",")
-print(pt)
+-- local t = {
+--     2
+-- }
+-- local pt = table.concat(t, ",")
+-- print(pt)
+
+-- function getDir(userId)
+--     for i=1,200000 do
+--         local edge = i*100000
+--         if userId < edge then
+--             return i - 1
+--         end
+--     end
+--     return 0
+-- end
+
+-- print(getDir(45896946))
+
+for i = 1, 20 do
+    
+    print(i)
+end

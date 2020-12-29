@@ -50,7 +50,7 @@ svn commit -m "Revert revision from r28 to r25,because of ..."
 
 空文件夹
 ```shell
-svn co --depth=empty https://39.108.152.6/svn/qzmj/trunk/design/UI/
+svn co --depth=empty https://39.108.152.6/svn/fzmj/trunk/lua-client
 ```
 https://39.108.152.6/svn/qzmj/trunk/lua-client/mainGame_appstore
 

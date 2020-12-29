@@ -40,7 +40,7 @@
             },
             {
                 "appID": "68ML24N287.com.mn.mj.www",
-                "paths": ["/"]
+                "paths": ["/*"]
             },
             {
                 "appID": "FWNPDT82AS.com.ww.mj.mn.www",
@@ -85,6 +85,10 @@
             {
                 "appID": "R459NBFZ22.www.my.hl.yx.com",
                 "paths": ["*"]
+            },
+            {
+                "appID": "4G44VQ2JRL.com.mn.pt.ww.www",
+                "paths": ["/*"]
             }
         ]
     }
