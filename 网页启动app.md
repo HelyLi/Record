@@ -47,7 +47,7 @@ curl -v https://gqp01.com/.well-known/apple-app-site-association
 福州 gar3.com
 肇庆 sxlwwmj.com
 
-curl -v https://wwmj06.com/.well-known/apple-app-site-association
+curl -v https://gqp01.com/.well-known/apple-app-site-association
 
 ```json
 ios:"wwbbmj://",ulink:"https://wwg16.com/",android:"mj://wwbbmj.com/"

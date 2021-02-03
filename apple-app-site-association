@@ -80,7 +80,7 @@
             },
             {
                 "appID": "R59BGKQ25J.com.ml.yx.yl.www",
-                "paths": ["/"]
+                "paths": ["/*"]
             },
             {
                 "appID": "R459NBFZ22.www.my.hl.yx.com",

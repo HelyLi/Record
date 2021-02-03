@@ -41,8 +41,10 @@ git push origin :refs/tags/v3.9.3
 
 克隆最近的一次commit
 ```git
-git clone --depth 1 ssh://git@39.108.152.6:3001/LocalGame/mj_mini_cc.git
+git clone --depth 1 ssh://git@39.108.152.6:3001/LocalGame/lymj-v2.git
 git remote set-branches origin 'dev'
 git fetch --depth 1 origin dev
 git checkout dev
 ```
+
+/Users/triangle/Library/Developer/Xcode/DerivedData/
