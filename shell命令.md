@@ -111,3 +111,6 @@ mysql 数据目录
 /usr/local/var/mysql
 ```
 
+https://www.cnblogs.com/nzbbody/p/4391802.html
+
+
